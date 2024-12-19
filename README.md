@@ -30,10 +30,12 @@ NOTE: On a velocity configuration, the player can just be sent to the lobby.
 # Other Features
 
 War End Broadcast
-![image](https://github.com/user-attachments/assets/b2cfea67-7be1-4779-af8c-9701dee9f877)
+
+[image](https://github.com/user-attachments/assets/b2cfea67-7be1-4779-af8c-9701dee9f877)
 
 Score Update Broadcast
-![image](https://github.com/user-attachments/assets/2d165faa-8eb5-4daa-9cce-21c9dca2d4b6)
+
+[image](https://github.com/user-attachments/assets/2d165faa-8eb5-4daa-9cce-21c9dca2d4b6)
 
 Quincu, the lands plugin already has these messages available, why did you add them as features?
 
