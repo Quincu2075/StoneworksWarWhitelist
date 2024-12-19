@@ -1,0 +1,29 @@
+name: StoneworksWarWhitelist
+version: '1.0'
+main: me.quincu2075.warwhitelist.SWW
+api-version: '1.21'
+commands:
+  endwarwhitelist:
+    description: Stop the war whitelist.
+  startwarwhitelist:
+    description: Start the war whitelist
+  reloadwarwhitelist:
+    description: Reload the war whitelist
+permissions:
+  warwhitelist.bypass:
+    description: Bypass the war whitelist.
+    default: op
+  warwhitelist.end:
+    description: End/stop the war whitelist forcibly.
+    default: op
+  warwhitelist.stop:
+    description: Start the war whitelist.
+    default: op
+  warwhitelist.reload:
+    description: Reload the war whitelist config.
+    default: op
+depend:
+  - Lands
+  - LuckPerms
+softdepend:
+  - RedisChat

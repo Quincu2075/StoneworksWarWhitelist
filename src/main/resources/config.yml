@@ -1,0 +1,54 @@
+#How much time before the server kicks all players unaffiliated with the war? (in seconds)
+#In the case of a squatter war (or a less significant war), you can use '/endwarwhitelist' to stop the whitelist
+grace-before-kick: 30
+
+#Message to be sent out to non-whitelisted players before the grace kick
+#%seconds% = Amount of seconds until the whitelist is enabled and all unrelated players are kicked.
+grace-message: "&4&lWAR IS STARTING ON YOUR QUAD VERY SOON! YOU WILL BE KICKED IN %seconds% SECONDS!"
+
+#Message to be sent out when a player is kicked for a war whitelist
+kick-message: "&cYour quad currently has a war ongoing. Please come back later."
+
+#Broadcast the end of the war
+#NOTE: This is not applied if the value is set to ""!
+#%defender-claim% = Defender claim name (no color codes)
+#%defender-score% = Defender score
+#%attacker-claim% = Attacker claim name (no color codes)
+#%attacker-score% = Attacker score
+end-format: "&4&lWAR HAS OFFICIALLY ENDED \n &c%attacker-claim%&f: &c%attacker-score% &fPoints \n &b%defender-claim%&f: &c%defender-score% &fPoints"
+
+#Amount of times the end message should be sent (spammed).
+#NOTE: If the above value is set to "", this will not be used!
+end-times: 2
+
+#Enable keep inventory after a war has ended?
+#true = Automatically turn on keep inventory after the war has ended.
+#false = Will not turn on keep inv.
+end-keepinv: false
+
+#Keep inventory worlds
+end-keepinv-worlds:
+  - world
+
+#Periodic score updates
+#NOTE: The periodic updates will automatically stop once a war has concluded or has been forcibly stopped.
+#This has the placeholders from 'end-format'
+#%minutes% = Minutes left in the war
+#%seconds% = Seconds left in the war
+score-format: "&6&lWAR SCORE UPDATE \n &c%attacker-claim%&f: &c%attacker-score% &fPoints \n &b%defender-claim%&f: &c%defender-score% &fPoints \n &7Approx. Remaining Time: %minutes%m %seconds%s"
+
+#Periodic score update interval (in seconds)
+score-interval: 150
+
+#Broadcast score and end messages globally or locally?
+#true = Global (via RedisChat)
+#false = Local (via Bukkit.broadcast())
+broadcast-global: false
+
+#Change the maximum amount of players to this amount when whitelist is enabled
+#Set to -1 to disable!
+#It is HIGHLY recommended to have this value between 100 and 125 to ensure best performance for wars.
+war-max: 120
+
+#Bukkit version
+bukkit-ver: "v1_21_R1"
