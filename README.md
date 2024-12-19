@@ -1,6 +1,13 @@
 # StoneworksWarWhitelist
 The easiest way to whitelist any war! (works with Lands plugin)
 
+Dependencies: 
+- LuckPerms
+- Lands
+
+Soft-Dependencies:
+- RedisChat
+
 # War Whitelist (Staff)
 
 NOTE: This is a permission-based whitelist and doesn't modify the vanilla whitelist! It will let in players if they meet one of the following conditions:
