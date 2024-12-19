@@ -17,25 +17,25 @@ If there isn't a lands war active yet, which is likely the case, you'll need to 
 This will terminate the war whitelist completely. An end of a war does NOT automatically end the war whitelist, this must be done manually.
 
 # Demonstration
-1. Admin uses '/war admin start test1 test2 0 15m' to start the lands war and then '/startwarwhitelist test1 test2' to enable war whitelist
+Admin uses '/war admin start test1 test2 0 15m' to start the lands war and then '/startwarwhitelist test1 test2' to enable war whitelist
    
-2. ![image](https://github.com/user-attachments/assets/a266f51f-d0ab-446d-b5f7-843832543b7a)
+![image](https://github.com/user-attachments/assets/a266f51f-d0ab-446d-b5f7-843832543b7a)
 
-3. ![image](https://github.com/user-attachments/assets/e6344935-8742-4e6d-9e49-eac66dbcf64b)
+![image](https://github.com/user-attachments/assets/e6344935-8742-4e6d-9e49-eac66dbcf64b)
 
 NOTE: On a velocity configuration, the player can just be sent to the lobby.
 
-4. At the end of the war the admin uses '/endwarwhitelist' ![image](https://github.com/user-attachments/assets/d91a4c8c-1571-4551-a8db-8d5d139a199e)
+At the end of the war the admin uses '/endwarwhitelist'
+   
+![image](https://github.com/user-attachments/assets/d91a4c8c-1571-4551-a8db-8d5d139a199e)
 
 # Other Features
 
 War End Broadcast
-
-[image](https://github.com/user-attachments/assets/b2cfea67-7be1-4779-af8c-9701dee9f877)
+![image](https://github.com/user-attachments/assets/b2cfea67-7be1-4779-af8c-9701dee9f877)
 
 Score Update Broadcast
-
-[image](https://github.com/user-attachments/assets/2d165faa-8eb5-4daa-9cce-21c9dca2d4b6)
+![image](https://github.com/user-attachments/assets/2d165faa-8eb5-4daa-9cce-21c9dca2d4b6)
 
 Quincu, the lands plugin already has these messages available, why did you add them as features?
 
