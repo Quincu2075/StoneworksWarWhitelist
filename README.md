@@ -9,11 +9,11 @@ NOTE: This is a permission-based whitelist and doesn't modify the vanilla whitel
 - The player has the bypass permission (warwhitelist.bypass)
 
 You can use these commands to enable/disable a war whitelist.
-/startwarwhitelist <land1> [land2]
+#/startwarwhitelist <land1> [land2]
 If there is a lands war active, you only need 1 land argument to start the war. The preparation phase of the war doesn't count; it has to be in an ACTIVE war.
 If there isn't a lands war active yet, which is likely the case, you'll need to enter both land names as arguments.
 
-/endwarwhitelist 
+#/endwarwhitelist 
 This will terminate the war whitelist completely. An end of a war does NOT automatically end the war whitelist, this must be done manually.
 
 # Demonstration
