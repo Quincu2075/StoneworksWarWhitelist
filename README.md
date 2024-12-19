@@ -8,7 +8,8 @@ NOTE: This is a permission-based whitelist and doesn't modify the vanilla whitel
 - The player is whitelisted on the vanilla whitelist
 - The player has the bypass permission (warwhitelist.bypass)
 
-You can use these commands to enable/disable a war whitelist.
+You can use these commands below to enable/disable a war whitelist.
+
 `/startwarwhitelist <land1> [land2]`
 If there is a lands war active, you only need 1 land argument to start the war. The preparation phase of the war doesn't count; it has to be in an ACTIVE war.
 If there isn't a lands war active yet, which is likely the case, you'll need to enter both land names as arguments.
